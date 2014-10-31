@@ -1,0 +1,48 @@
+{
+  "name": "chai-joi",
+  "version": "1.0.0",
+  "description": "chai-joi",
+  "keywords": [
+    "chai",
+    "test",
+    "assertion",
+    "assert",
+    "testing",
+    "joi",
+    "hapi",
+    "guid"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshball/chai-joi.git"
+  },
+  "author": {
+    "url": "https://github.com/joshball"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshball/chai-joi/issues"
+  },
+  "homepage": "https://github.com/joshball/chai-joi",
+  "dependencies": {
+    "joi": "^4.7.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "chai-json-schema": "^1.1.0",
+    "grunt": "^0.4.5",
+    "grunt-bump": "0.0.16",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.12.1",
+    "jshint-path-reporter": "^0.1.3",
+    "lodash": "^2.4.1",
+    "mocha": "^1.21.4",
+    "mocha-unfunk-reporter": "^0.4.0"
+  }
+}
